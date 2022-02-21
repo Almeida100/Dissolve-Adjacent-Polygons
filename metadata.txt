@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Dissolve Adjacent Polygons
+qgisMinimumVersion=3.16
+description=This plugin dissolves polygons adjacent to other polygons, according to user-chosen options.
+version=0.1
+author=Antonio Sobral Almeida
+email=66124.almeida@gmail.com
+
+about=The plugin dissolves polygons whose area falls below a user-defined threshold. The dissolution is carried out into adjacent polygons of larger or smaller area, according to the option chosen by the user. The user can also choose an adjacency by common largest border.To run the plugin once installed, go to Processing Toolbox -> Dissolve Adjacent Polygons.
+
+tracker=https://github.com/Almeida100/Dissolve-Adjacent-Polygons/issues
+repository=https://github.com/Almeida100/Dissolve-Adjacent-Polygons
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=yes
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=vector, shapefile, processing
+
+homepage=https://github.com/Almeida100/Dissolve-Adjacent-Polygons
+category=Analysis
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
